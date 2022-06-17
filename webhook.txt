@@ -10,7 +10,7 @@ pipeline {
           
         stage('mvn build') {
             steps {
-               sh'ls'
+               sh'print hello'
             }
         }
          
