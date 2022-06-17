@@ -6,12 +6,12 @@ pipeline {
             steps {
                sh '''echo "hello world"
             }
-        }   
+        }  
          stage('build') {
             steps {
-               sh 'ls'
+               sh 'touch f2'
             }
-        }    
+        } 
           
       }
 
