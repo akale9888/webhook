@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git push') {
             steps {
-               git 'https://github.com/akale9888/webhook.git'
+               sh '''echo "hello world"
             }
         }         
           
