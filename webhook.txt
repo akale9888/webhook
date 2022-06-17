@@ -1,1 +1,14 @@
-print hello
+pipeline {
+    agent any
+
+    stages {
+        stage('git push') {
+            steps {
+               git 'https://github.com/akale9888/webhook.git'
+            }
+        }         
+          
+      }
+
+
+    }
